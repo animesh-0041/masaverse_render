@@ -1,0 +1,25 @@
+{
+  "name": "masaverse_render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server":"json-server --watch db.json port 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animesh-0041/masaverse_render.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animesh-0041/masaverse_render/issues"
+  },
+  "homepage": "https://github.com/animesh-0041/masaverse_render#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.3"
+  }
+}
